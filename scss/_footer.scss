@@ -1,0 +1,23 @@
+footer{
+    background-image: url(/img/fondo-header-3.JPG);
+    ul{
+        //border:solid 1px black;
+        margin-top: 2rem;
+        li{                 
+            font-size: 2.5rem;
+            padding: 1.5rem .7rem;
+            a{
+                color: $c-rojo-titulos;
+                transition: all .4s;
+            }
+            // &hover{
+            //     background-color: $c-rojo-titulos !important;
+            //     color: black !important;
+            // }
+            //**** cambiarle el color del hover
+        }
+    }
+    .footer-copyright{
+        background-color: rgba(10, 10, 10,.9);
+    }
+}

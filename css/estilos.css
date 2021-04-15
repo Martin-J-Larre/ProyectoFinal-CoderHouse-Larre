@@ -1,0 +1,135 @@
+nav {
+  background-image: url(/img/fondo-header-3.JPG);
+  box-shadow: 0 0 25px;
+}
+nav ul {
+  margin-right: 100px;
+  height: 45px;
+}
+nav ul li {
+  font-size: 1.2rem;
+  margin: 0 25px;
+  font-family: "Bitter", serif;
+}
+nav ul li a {
+  color: rgba(194, 7, 7, 0.8) !important;
+  font-weight: 700;
+}
+nav ul li:hover {
+  border-bottom: 5px solid #c20707;
+  color: #fffbf5 !important;
+  transition: all 0.4s;
+}
+
+.contenedor__carousel {
+  margin-top: 110px;
+}
+.contenedor__carousel .container__texto {
+  background-image: url(/img/fondo-header-3.JPG);
+}
+.contenedor__carousel .container__texto h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 3.5rem;
+}
+.contenedor__carousel .container__texto p {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.8rem;
+  padding: 10px 25px;
+}
+
+footer {
+  background-image: url(/img/fondo-header-3.JPG);
+}
+footer ul {
+  margin-top: 2rem;
+}
+footer ul li {
+  font-size: 2.5rem;
+  padding: 1.5rem 0.7rem;
+}
+footer ul li a {
+  color: rgba(194, 7, 7, 0.8);
+  transition: all 0.4s;
+}
+footer .footer-copyright {
+  background-color: rgba(10, 10, 10, 0.9);
+}
+
+.nosotros {
+  margin-top: 120px;
+}
+.nosotros .nosotros__texto h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 2px;
+}
+.nosotros .nosotros__texto p {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  padding: 5px 5px 5px 35px;
+  text-align: justify;
+}
+.nosotros .nosotros__img {
+  width: 100%;
+}
+.nosotros .nosotros__img-caja {
+  margin-top: 50px;
+}
+.nosotros .nosotros__img-caja .nosotros__img-redondo {
+  clip-path: circle();
+}
+.nosotros .nosotros__img-caja h2 {
+  color: #c20707;
+  font-size: 2rem;
+  text-align: center;
+}
+.nosotros .nosotros__img-caja p {
+  color: #c20707;
+  font-size: 1rem;
+  padding-top: 5px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.galeria {
+  margin-top: 110px;
+}
+.galeria h1 {
+  color: #c20707;
+  text-align: center;
+  font-size: 4rem;
+  padding: 30px 0;
+}
+.galeria .galeria__conteiner {
+  width: 80%;
+  margin: 0 auto;
+  border: 5px solid #3d2e2e;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galeria .galeria__conteiner .galeria__conteiner-fotos {
+  width: 300px;
+  border: 5px solid #3d2e2e;
+  box-sizing: border-box;
+  box-shadow: 10px 15px 35px;
+  margin: 25px;
+  transition: all 0.5s;
+}
+.galeria .galeria__conteiner .galeria__conteiner-fotos:hover {
+  transform: scale(1.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/img/fondo-header-3.JPG);
+}
+
+/*# sourceMappingURL=estilos.css.map */

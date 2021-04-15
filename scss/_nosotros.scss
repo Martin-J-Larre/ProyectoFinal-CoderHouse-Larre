@@ -1,0 +1,42 @@
+.nosotros{
+    margin-top:120px;
+    .nosotros__texto{
+        // border: 1px solid $color-bordes
+        h1{
+            font-family: $f-titulo-DancingScipt;
+            text-align: center;
+            font-size: 3.5rem;
+            padding: 2px;
+        }
+        p{
+            font-family: $f-titulo-DancingScipt;
+            font-size: 1.5rem;
+            padding: 5px 5px 5px 35px;
+            text-align: justify;
+        }
+    }
+    .nosotros__img{
+        width: 100%;
+        // ver como hacer oara que la imagen se vea bien hasta en col-lg-6 que ocupe el 100% de la caja y se mantenga igual que texto
+    }
+    .nosotros__img-caja{
+        // border: 1px solid $color-bordes;
+        margin-top: 50px;
+        .nosotros__img-redondo{
+            clip-path: circle();
+        }
+        h2{
+            color:$color-texto-red;
+            font-size: 2rem;  
+            text-align: center;
+        }
+        p{
+            color:$color-texto-red;
+            font-size: 1rem;
+            padding-top: 5px;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+    }
+ 
+}   
