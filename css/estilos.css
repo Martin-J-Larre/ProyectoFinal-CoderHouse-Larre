@@ -43,24 +43,6 @@ nav ul li:hover {
   padding: 15px 60px;
 }
 
-footer {
-  background-image: url(/img/fondo-header-3.JPG);
-}
-footer ul {
-  margin-top: 2rem;
-}
-footer ul li {
-  font-size: 2.5rem;
-  padding: 1.5rem 0.7rem;
-}
-footer ul li a {
-  color: rgba(194, 7, 7, 0.8);
-  transition: all 0.4s;
-}
-footer .footer-copyright {
-  background-color: rgba(10, 10, 10, 0.9);
-}
-
 .nosotros {
   margin-top: 120px;
 }
@@ -133,10 +115,10 @@ footer .footer-copyright {
   box-sizing: border-box;
   box-shadow: 10px 15px 35px;
   margin: 25px;
-  transition: all 0.5s;
+  transition: all 0.7s;
 }
 .galeria .galeria__conteiner .galeria__conteiner-fotos:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .contacto {
@@ -199,13 +181,83 @@ footer .footer-copyright {
 }
 .eventos .eventos__contenedor-img img {
   width: 100%;
-  margin: 30px;
+  margin: 40px;
 }
 .eventos .eventos__contenedor-img p {
   text-align: justify;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   padding: 5px 30px;
+}
+
+footer {
+  background-image: url(/img/fondo-header-3.JPG);
+}
+footer ul {
+  margin-top: 2rem;
+}
+footer ul li {
+  font-size: 2.5rem;
+  padding: 1.5rem 0.7rem;
+}
+footer ul li a {
+  color: rgba(194, 7, 7, 0.8);
+  transition: all 0.4s;
+}
+footer .footer-copyright {
+  background-color: rgba(10, 10, 10, 0.9);
+}
+
+.section__menu {
+  margin-top: 150px;
+}
+
+.bgc-topo1 {
+  background-color: #212F3D;
+}
+
+.c-topo1 {
+  color: #212F3D;
+}
+
+.bgc-topo2 {
+  background-color: #2C3E50;
+}
+
+.c-topo2 {
+  color: #2C3E50;
+}
+
+.bgc-gris {
+  background-color: #566573;
+}
+
+.c-gris {
+  color: #566573;
+}
+
+.bgc-gris2 {
+  background-color: #616A6B;
+}
+
+.c-gris2 {
+  color: #616A6B;
+}
+
+.bgc-perla {
+  background-color: #B3B6B7;
+}
+
+.c-perla {
+  color: #B3B6B7;
+}
+
+.bgc-perla2 {
+  background-color: #D0D3D4;
+}
+
+.c-perla2 {
+  color: #D0D3D4;
 }
 
 body {

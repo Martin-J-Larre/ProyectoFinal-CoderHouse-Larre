@@ -1,0 +1,20 @@
+.section__menu {
+    margin-top:150px;
+}
+// map y each para paletas de colores de tabla menú/carta de vinos
+$colores-grises:(
+    topo1:#212F3D,
+    topo2:#2C3E50,
+    gris:#566573,
+    gris2:#616A6B ,
+    perla:#B3B6B7,
+    perla2:#D0D3D4,
+);
+@each $color-tabla,$grices in $colores-grises {
+    .bgc-#{$color-tabla}{
+        background-color: $grices;
+    }
+    .c-#{$color-tabla}{
+        color: $grices;
+    }
+}
