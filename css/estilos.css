@@ -28,16 +28,19 @@ nav ul li:hover {
   background-image: url(/img/fondo-header-3.JPG);
 }
 .contenedor__carousel .container__texto h1 {
-  margin-top: 50px;
+  margin-top: 60px;
   text-align: center;
-  font-family: "Dancing Script", cursive;
-  font-size: 3.5rem;
+  color: rgba(194, 7, 7, 0.8);
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 2.5rem;
 }
 .contenedor__carousel .container__texto p {
-  text-align: center;
-  font-family: "Dancing Script", cursive;
-  font-size: 1.8rem;
-  padding: 10px 25px;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+  padding: 15px 60px;
 }
 
 footer {
@@ -62,18 +65,23 @@ footer .footer-copyright {
   margin-top: 120px;
 }
 .nosotros .nosotros__texto h1 {
-  font-family: "Dancing Script", cursive;
+  margin-top: 15px;
+  margin-bottom: 30px;
   text-align: center;
-  font-size: 3.5rem;
-  padding: 2px;
+  color: rgba(194, 7, 7, 0.8);
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 2.5rem;
 }
 .nosotros .nosotros__texto p {
-  font-family: "Dancing Script", cursive;
-  font-size: 1.5rem;
-  padding: 5px 5px 5px 35px;
   text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 0 100px;
 }
 .nosotros .nosotros__img {
+  margin-top: 70px;
   width: 100%;
 }
 .nosotros .nosotros__img-caja {
@@ -83,12 +91,14 @@ footer .footer-copyright {
   clip-path: circle();
 }
 .nosotros .nosotros__img-caja h2 {
-  color: #c20707;
+  font-family: "Roboto Slab", serif;
+  color: rgba(194, 7, 7, 0.8);
   font-size: 2rem;
   text-align: center;
+  font-weight: 800;
 }
 .nosotros .nosotros__img-caja p {
-  color: #c20707;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   padding-top: 5px;
   text-align: center;
@@ -96,13 +106,16 @@ footer .footer-copyright {
 }
 
 .galeria {
-  margin-top: 110px;
+  margin-top: 120px;
 }
 .galeria h1 {
-  color: #c20707;
+  margin-top: 150px;
   text-align: center;
-  font-size: 4rem;
-  padding: 30px 0;
+  color: rgba(194, 7, 7, 0.8);
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  padding-bottom: 20px;
 }
 .galeria .galeria__conteiner {
   width: 80%;
@@ -124,6 +137,75 @@ footer .footer-copyright {
 }
 .galeria .galeria__conteiner .galeria__conteiner-fotos:hover {
   transform: scale(1.1);
+}
+
+.contacto {
+  margin-top: 120px;
+}
+.contacto .contacto__dir .contacto-titulo {
+  margin: 40px 0;
+  text-align: center;
+  color: rgba(194, 7, 7, 0.8);
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.contacto .contacto__dir .contacto__dir-p {
+  color: rgba(194, 7, 7, 0.8);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.contacto .contacto__form {
+  padding: 3rem 8rem 1rem 1rem;
+}
+.contacto .contacto__form input {
+  margin-bottom: 1.5rem;
+}
+.contacto .contacto__form button {
+  margin-top: 1rem;
+  padding: 0 0.5rem;
+  background-image: url(/img/fondo-header-3.JPG);
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.eventos {
+  margin-top: 110px;
+}
+.eventos h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgba(194, 7, 7, 0.8);
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.eventos p {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+  padding: 0 40px;
+}
+.eventos video {
+  width: 90%;
+  border: 5px solid #3d2e2e;
+  box-sizing: border-box;
+  box-shadow: 0 0 25px;
+  margin: 2rem;
+}
+.eventos hr {
+  margin-top: 1rem;
+}
+.eventos .eventos__contenedor-img img {
+  width: 100%;
+  margin: 30px;
+}
+.eventos .eventos__contenedor-img p {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  padding: 5px 30px;
 }
 
 body {
