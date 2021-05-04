@@ -1,24 +1,40 @@
-nav {
+header nav {
   background-image: url(/img/fondo-header-3.JPG);
   box-shadow: 0 0 25px;
 }
-nav ul {
-  margin-right: 100px;
-  height: 45px;
+header nav [logo] {
+  margin-right: 15rem;
 }
-nav ul li {
+header nav [items] {
+  margin: 1rem 2rem;
   font-size: 1.2rem;
-  margin: 0 25px;
-  font-family: "Bitter", serif;
-}
-nav ul li a {
   color: rgba(194, 7, 7, 0.8) !important;
   font-weight: 700;
+  font-family: "Bitter", serif;
 }
-nav ul li:hover {
+header nav [items]:hover {
   border-bottom: 5px solid #c20707;
-  color: #fffbf5 !important;
+  color: rgba(194, 7, 7, 0.8) !important;
   transition: all 0.4s;
+  font-family: "Bitter", serif;
+}
+header nav .sub-menu {
+  background-image: url(/img/fondo-header-3.JPG);
+}
+header nav .sub-menu [items-2] {
+  display: block;
+  margin: 1rem 2rem;
+  font-size: 1rem;
+  color: rgba(194, 7, 7, 0.8) !important;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: "Bitter", serif;
+}
+header nav .sub-menu [items-2]:hover {
+  border-bottom: 5px solid #c20707;
+  color: rgba(194, 7, 7, 0.8) !important;
+  transition: all 0.4s;
+  font-family: "Bitter", serif;
 }
 
 .contenedor__carousel {

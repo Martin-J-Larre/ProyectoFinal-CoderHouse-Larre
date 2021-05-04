@@ -1,26 +1,46 @@
-nav{
-    //border-bottom:5px solid $color-bordes;
-    background-image: url(/img/fondo-header-3.JPG);
-    box-shadow: 0 0 25px;
-    ul{
-        margin-right:100px;
-        height:45px;
-        
-     // border:3px solid black;
-      li{
-        // border:3px solid black;
-         font-size: 1.2rem;
-         margin: 0 25px;
-         font-family: $f-titulo-bitter;
-         a{
-             color:$c-rojo-titulos !important;
-             font-weight: 700;
-         }
-         &:hover{
-            border-bottom:5px solid #c20707;
-            color: rgb(255, 251, 245) !important;
-            transition: all 0.4s;
-         }
-    }
-  }   
+
+header{
+  nav{
+      background-image: url(/img/fondo-header-3.JPG);
+      box-shadow: 0 0 25px;
+      [logo]{
+          margin-right: 15rem;
+      }
+      [items]{
+          margin: 1rem 2rem;
+          font-size: 1.2rem;
+          color: rgba(194, 7, 7, 0.8) !important;
+          font-weight: 700;
+          font-family: $f-titulo-bitter;
+      }
+      [items]:hover{
+          border-bottom: 5px solid #c20707;
+          color: rgba(194, 7, 7, 0.8) !important;
+          transition: all 0.4s;
+          font-family: $f-titulo-bitter;
+      }
+      .sub-menu{
+          background-image: url(/img/fondo-header-3.JPG);
+          [items-2]{
+              display:block;
+              margin: 1rem 2rem;
+              font-size: 1rem;
+              color: rgba(194, 7, 7, 0.8) !important;
+              font-weight: 700;
+              text-decoration: none;
+              font-family: $f-titulo-bitter;
+          }
+          [items-2]:hover{
+              border-bottom: 5px solid #c20707;
+              color: rgba(194, 7, 7, 0.8) !important;
+              transition: all 0.4s;
+              font-family: $f-titulo-bitter;
+          }
+          
+      }
+
+ 
+  }
+  
 }
+
