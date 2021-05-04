@@ -3,38 +3,38 @@ header nav {
   box-shadow: 0 0 25px;
 }
 header nav [logo] {
-  margin-right: 15rem;
+  margin-right: 20rem;
 }
-header nav [items] {
+header nav ul {
+  height: 5rem;
+}
+header nav ul [items] {
   margin: 1rem 2rem;
   font-size: 1.2rem;
   color: rgba(194, 7, 7, 0.8) !important;
   font-weight: 700;
-  font-family: "Bitter", serif;
 }
-header nav [items]:hover {
+header nav ul [items]:hover {
   border-bottom: 5px solid #c20707;
   color: rgba(194, 7, 7, 0.8) !important;
   transition: all 0.4s;
-  font-family: "Bitter", serif;
 }
-header nav .sub-menu {
+header nav ul .sub-menu {
   background-image: url(/img/fondo-header-3.JPG);
+  height: auto;
 }
-header nav .sub-menu [items-2] {
+header nav ul .sub-menu [items-2] {
   display: block;
   margin: 1rem 2rem;
   font-size: 1rem;
   color: rgba(194, 7, 7, 0.8) !important;
   font-weight: 700;
   text-decoration: none;
-  font-family: "Bitter", serif;
 }
-header nav .sub-menu [items-2]:hover {
+header nav ul .sub-menu [items-2]:hover {
   border-bottom: 5px solid #c20707;
   color: rgba(194, 7, 7, 0.8) !important;
   transition: all 0.4s;
-  font-family: "Bitter", serif;
 }
 
 .contenedor__carousel {
