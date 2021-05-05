@@ -1,7 +1,6 @@
 .nosotros{
     margin-top:120px;
     .nosotros__texto{
-        // border: 1px solid $color-bordes
         h1{
             margin-top:15px;
             margin-bottom: 30px;
@@ -22,14 +21,12 @@
     .nosotros__img{
         margin-top: 70px;
         width: 100%;
-        // ver como hacer oara que la imagen se vea bien hasta en col-lg-6 que ocupe el 100% de la caja y se mantenga igual que texto
+       
     }
     .nosotros__img-caja{
-        // border: 1px solid $color-bordes;
         margin-top: 50px;
         .nosotros__img-redondo{
             clip-path: circle();
-            
         }
         h2{    
             font-family: $nueva-fuente-titulos;

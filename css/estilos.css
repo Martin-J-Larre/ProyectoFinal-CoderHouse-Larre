@@ -148,8 +148,9 @@ header nav ul .sub-menu [items-2]:hover {
   font-weight: 900;
   font-size: 2.5rem;
 }
-.contacto .contacto__dir .contacto__dir-p {
+.contacto .contacto__dir .contacto__dir-h {
   color: rgba(194, 7, 7, 0.8);
+  margin-top: 1rem;
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -203,7 +204,7 @@ header nav ul .sub-menu [items-2]:hover {
   text-align: justify;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  padding: 5px 30px;
+  padding: 0 3rem;
 }
 
 footer {
