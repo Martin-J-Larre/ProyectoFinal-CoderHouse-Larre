@@ -3,7 +3,7 @@ header nav {
   box-shadow: 0 0 25px;
 }
 header nav [logo] {
-  margin-right: 20rem;
+  margin-right: 20%;
 }
 header nav ul {
   height: 5rem;
@@ -13,11 +13,12 @@ header nav ul [items] {
   font-size: 1.2rem;
   color: rgba(194, 7, 7, 0.8) !important;
   font-weight: 700;
+  font-family: "Bitter", serif;
 }
 header nav ul [items]:hover {
   border-bottom: 5px solid #c20707;
-  color: rgba(194, 7, 7, 0.8) !important;
   transition: all 0.4s;
+  font-family: "Bitter", serif;
 }
 header nav ul .sub-menu {
   background-image: url(/img/fondo-header-3.JPG);
@@ -30,13 +31,91 @@ header nav ul .sub-menu [items-2] {
   color: rgba(194, 7, 7, 0.8) !important;
   font-weight: 700;
   text-decoration: none;
+  font-family: "Bitter", serif;
 }
 header nav ul .sub-menu [items-2]:hover {
   border-bottom: 5px solid #c20707;
   color: rgba(194, 7, 7, 0.8) !important;
   transition: all 0.4s;
+  font-family: "Bitter", serif;
 }
 
+@media screen and (max-width: 1124px) {
+  header nav [logo] {
+    margin: 0;
+  }
+  header nav [logo] img {
+    width: 90%;
+  }
+  header nav ul {
+    height: 5rem;
+  }
+  header nav ul [items] {
+    margin: 1rem 0.8rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 987px) {
+  header nav [logo] {
+    margin: auto;
+  }
+  header nav ul li {
+    background-image: url(/img/fondo-header-3.JPG);
+  }
+  header nav ul li [items] {
+    display: inline-block;
+    margin: 0.5rem 45%;
+    font-size: 1rem;
+  }
+  header nav ul li [items]:hover {
+    border-bottom: 4px solid #c20707;
+    transition: all 0.5s;
+  }
+  header nav ul li .sub-menu {
+    background-image: url(/img/fondo-header-3.JPG);
+    height: auto;
+  }
+  header nav ul li .sub-menu [items-2] {
+    display: inline-block;
+    margin: 0.5rem 45%;
+    font-size: 1rem;
+  }
+  header nav ul li .sub-menu [items-2]:hover {
+    border-bottom: 4px solid #c20707;
+    transition: all 0.5s;
+  }
+}
+@media screen and (max-width: 479px) {
+  header nav [logo] img {
+    margin: 0 5rem;
+    width: 60%;
+  }
+  header nav ul li {
+    background-image: url(/img/fondo-header-3.JPG);
+  }
+  header nav ul li [items] {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 0.8rem;
+  }
+  header nav ul li [items]:hover {
+    border-bottom: 4px solid #c20707;
+    transition: all 0.5s;
+  }
+  header nav ul li .sub-menu {
+    background-image: url(/img/fondo-header-3.JPG);
+    height: auto;
+  }
+  header nav ul li .sub-menu [items-2] {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 0.8rem;
+  }
+  header nav ul li .sub-menu [items-2]:hover {
+    border-bottom: 4px solid #c20707;
+    transition: all 0.5s;
+  }
+}
 .contenedor__carousel {
   margin-top: 110px;
 }
