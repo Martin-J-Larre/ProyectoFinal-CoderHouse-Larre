@@ -1,7 +1,6 @@
 footer{
     background-image: url(/img/fondo-header-3.JPG);
     ul{
-        //border:solid 1px black;
         margin-top: 2rem;
         li{                 
             font-size: 2.5rem;
@@ -10,14 +9,37 @@ footer{
                 color: $c-rojo-titulos;
                 transition: all .4s;
             }
-            // &hover{
-            //     background-color: $c-rojo-titulos !important;
-            //     color: black !important;
-            // }
-            //**** cambiarle el color del hover
         }
     }
     .footer-copyright{
         background-color: rgba(10, 10, 10,.9);
+    }
+}
+@media  screen and (max-width:480px){
+    footer{
+        background-image: url(/img/fondo-header-3.JPG);
+        ul{
+            margin-top: 1rem;
+            li{                 
+                font-size: 1.5rem;
+                padding:.5rem;
+            }
+        }
+      
+    }
+}
+@media  screen and (max-width:320px){
+    footer{
+        background-image: url(/img/fondo-header-3.JPG);
+        ul{
+            margin:1rem;
+            li{                 
+                font-size: 1rem;
+                padding:0;
+            }
+        }
+    }
+    .footer-copyright{
+        font-size: .7rem;
     }
 }

@@ -1,5 +1,5 @@
 .section__menu {
-    margin-top:150px;
+    margin-top:9rem;
 }
 // map y each para paletas de colores de tabla menú/carta de vinos
 $colores-grises:(
@@ -18,3 +18,9 @@ $colores-grises:(
         color: $grices;
     }
 }
+@media screen and (max-width:480px){
+    .section__menu {
+        margin-top:5rem;
+    }
+}
+

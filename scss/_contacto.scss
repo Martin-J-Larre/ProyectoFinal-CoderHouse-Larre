@@ -1,5 +1,5 @@
 .contacto{
-    margin-top: 120px;
+    margin-top:7rem;
     .contacto__dir{
         .contacto-titulo{
             margin:40px 0;
@@ -29,3 +29,79 @@
         }
     }
 }
+
+@media screen and (max-width:768px){
+    .contacto{
+        margin-top:6rem;
+        .contacto__dir{
+            .contacto-titulo{
+                margin:2rem 4rem 2rem 4rem;
+                font-size: 2rem;
+            }
+            .contacto__dir-h{
+                margin-top: 1rem;
+                font-size: 1.2rem;
+                font-weight: 500;
+                
+            }
+        }
+        .contacto__form{
+            padding:2rem;
+            input{
+                margin-bottom: 1rem;
+            }
+            button{
+                margin-top:1.5rem;
+                padding:0 0.5rem;
+               
+            }
+            textarea{
+                height: 12rem;
+            }
+        }
+    }
+}
+@media screen and (max-width:480px){
+    .contacto{
+        margin-top:2.5rem;
+        .contacto__dir{
+            .contacto-titulo{
+                margin:1rem 4rem 1rem 4rem;
+                font-size: 2rem;
+            }
+            .contacto__dir-h{
+                margin-top: 0;
+                font-size: 1.2rem;
+                font-weight: 500;
+                
+            }
+        }
+        .contacto__form{
+            padding:1.5rem;
+            input{
+                margin-bottom:.5rem;
+            }
+            button{
+                margin-top:.7rem;
+                padding:0 0.5rem;
+               
+            }
+            textarea{
+                height:12rem;
+            }
+        }
+    }
+}
+@media screen and (max-width:320px){
+    .contacto{
+        margin-top:4rem;
+        .contacto__dir{
+            .contacto-titulo{
+               font-size: 1.5rem;
+            }
+    
+        }
+        
+    }
+}
+    
