@@ -21,11 +21,9 @@
     .nosotros__img{
         margin-top: 3rem;
         width: 100%;
-       
     }
     .nosotros__img-caja{
         margin-top: 50px;
-        
         .nosotros__img-redondo{
             clip-path: circle();
         }
@@ -156,17 +154,17 @@
                 margin-bottom: 1rem;
         }
         .nosotros__img-caja{
-                .nosotros__img-redondo{
+            .nosotros__img-redondo{
                 clip-path: circle();
                 width: 70%;
                 margin:0 5rem;
-            }
+             }
             h2{    
-               padding-top:.5rem;  
+                padding-top:.5rem;  
             }
             p{
                 font-size: .9rem;
-            }
+              }
         }
     }   
 }
@@ -174,11 +172,10 @@
     .nosotros{
         margin-top:3.5rem;
         .nosotros__texto{
-        
-            p{
+              p{
                 line-height: 1.4rem;
                 font-size: .8rem;
-            }
+               }
         }
         .nosotros__img-caja{
                 .nosotros__img-redondo{

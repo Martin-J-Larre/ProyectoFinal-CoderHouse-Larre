@@ -4,21 +4,20 @@
       background-image: url(../img/fondo-header-3.JPG);
       
       h1{
-        margin-top: 3rem;
+        margin-top: 2rem;
         text-align: center;
         color:$c-rojo-titulos;
         font-family: $nueva-fuente-titulos;
         font-weight: 900;
         font-size: 2rem;
-        
-        }
-       p{
-         text-align:justify;
-         font-family: $nueva-fuente-parrafos;
-         font-size: 1rem;
-         line-height: 2.3rem;
-         padding: 15px 60px;
-    }
+      }
+      p{
+        text-align:justify;
+        font-family: $nueva-fuente-parrafos;
+        font-size: 1rem;
+        line-height: 2.3rem;
+        padding: .5rem 3.5rem;
+      }
  }
 } 
 @media screen and (max-width:1280px) {
@@ -26,20 +25,19 @@
       margin-top:7rem;
      .container__texto{
       background-image: url(../img/fondo-header-3.JPG);
-      
       h1{
         margin-top: 2rem;
        }
-       p{
+      p{
          font-size: 1rem;
          line-height: 2rem;
          padding: 10px 30px;
+      }
     }
- }
-} 
+  } 
 }
 @media screen and (max-width:1024px){
-  .contenedor__carousel{
+.contenedor__carousel{
     margin-top:6rem;
    .container__texto{
       h1{
@@ -49,14 +47,14 @@
        padding:0 1rem;
        line-height: 1.7rem
       }
-}
+    }
 .slider__container{
-    margin-top: 3rem;
-}
-}
+       margin-top: 3rem; 
+      }
+  }
 }
 @media screen and (max-width:768px){
-  .contenedor__carousel{
+.contenedor__carousel{
       .container__texto{
        h1{
        margin-top: 2.5rem;
@@ -68,10 +66,10 @@
    }
 }
 @media screen and (max-width:480px){
-  .contenedor__carousel{
-    margin-top:3rem;
-   .container__texto{
-    h1{
+.contenedor__carousel{
+     margin-top:3rem;
+     .container__texto{
+     h1{
       margin-top: 2rem;
       font-size: 1.5rem;
      }
@@ -79,24 +77,24 @@
        font-size: 1rem;
        line-height: 1.7rem;
        padding: 5px 10px;
-  }
-}
-} 
+      }
+    }
+  } 
 }
 @media screen and (max-width:320px){
-  .contenedor__carousel{
+.contenedor__carousel{
     margin-top:2rem;
-   .container__texto{
+    .container__texto{
     h1{
       margin-top: 2rem;
       font-size: 1.5rem;
+      }
+    p{
+      font-size: 1rem;
+      line-height: 1.5rem;
+      padding: 5px 5px;
+      font-size: .75rem;
      }
-     p{
-       font-size: 1rem;
-       line-height: 1.5rem;
-       padding: 5px 5px;
-       font-size: .75rem;
+   }
   }
-}
-}
 }
