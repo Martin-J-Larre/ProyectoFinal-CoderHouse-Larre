@@ -184,7 +184,7 @@ header nav ul .sub-menu [items-2]:hover {
     margin-top: 3rem;
   }
   .contenedor__carousel .container__texto p {
-    padding: 1rem;
+    padding: 0 1rem;
     line-height: 1.7rem;
   }
   .contenedor__carousel .slider__container {
@@ -604,10 +604,10 @@ header nav ul .sub-menu [items-2]:hover {
     margin-top: 9rem;
   }
   .eventos h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
   .eventos p {
-    line-height: 1.7rem;
+    line-height: 1.6rem;
   }
   .eventos .eventos__contenedor-img p {
     margin: 0;
@@ -641,7 +641,7 @@ header nav ul .sub-menu [items-2]:hover {
 }
 @media screen and (max-width: 768px) {
   .eventos {
-    margin-top: 7rem;
+    margin-top: 8rem;
   }
   .eventos h1 {
     margin-bottom: 0.5rem;
