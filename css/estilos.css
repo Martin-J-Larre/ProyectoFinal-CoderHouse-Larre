@@ -1,5 +1,5 @@
 header nav {
-  background-image: url(img/fondo-header-3.JPG);
+  background-image: url(../img/fondo-header-3.JPG);
   box-shadow: 0 0 25px;
 }
 header nav [logo] {
@@ -22,7 +22,7 @@ header nav ul [items]:hover {
   font-family: "Bitter", serif;
 }
 header nav ul .sub-menu {
-  background-image: url(img/fondo-header-3.JPG);
+  background-image: url(../img/fondo-header-3.JPG);
   height: auto;
 }
 header nav ul .sub-menu [items-2] {
@@ -65,7 +65,7 @@ header nav ul .sub-menu [items-2]:hover {
 }
 @media screen and (max-width: 768px) {
   header nav {
-    background-image: url(img/fondo-header-3.JPG);
+    background-image: url(../img/fondo-header-3.JPG);
     box-shadow: 0 0 25px;
   }
   header nav [logo] {
@@ -76,7 +76,7 @@ header nav ul .sub-menu [items-2]:hover {
   }
   header nav ul li {
     height: 2.5rem;
-    background-image: url(img/fondo-header-3.JPG);
+    background-image: url(../img/fondo-header-3.JPG);
   }
   header nav ul li [items] {
     display: inline-block;
@@ -84,7 +84,7 @@ header nav ul .sub-menu [items-2]:hover {
     font-size: 1rem;
   }
   header nav ul li .sub-menu {
-    background-image: url(img/fondo-header-3.JPG);
+    background-image: url(../img/fondo-header-3.JPG);
     height: 9rem;
     width: auto;
     margin: 0 45%;
@@ -108,7 +108,7 @@ header nav ul .sub-menu [items-2]:hover {
   }
   header nav ul li {
     height: 2.5rem;
-    background-image: url(img/fondo-header-3.JPG);
+    background-image: url(../img/fondo-header-3.JPG);
   }
   header nav ul li [items] {
     display: inline-block;
@@ -129,7 +129,7 @@ header nav ul .sub-menu [items-2]:hover {
   }
   header nav ul li {
     height: 2.5rem;
-    background-image: url(img/fondo-header-3.JPG);
+    background-image: url(../img/fondo-header-3.JPG);
   }
   header nav ul li [items] {
     display: inline-block;
@@ -142,7 +142,7 @@ header nav ul .sub-menu [items-2]:hover {
   margin-top: 7rem;
 }
 .contenedor__carousel .container__texto {
-  background-image: url(img/fondo-header-3.JPG);
+  background-image: url(../img/fondo-header-3.JPG);
 }
 .contenedor__carousel .container__texto h1 {
   margin-top: 3rem;
@@ -165,7 +165,7 @@ header nav ul .sub-menu [items-2]:hover {
     margin-top: 7rem;
   }
   .contenedor__carousel .container__texto {
-    background-image: url(img/fondo-header-3.JPG);
+    background-image: url(../img/fondo-header-3.JPG);
   }
   .contenedor__carousel .container__texto h1 {
     margin-top: 2rem;
@@ -494,7 +494,7 @@ header nav ul .sub-menu [items-2]:hover {
 .contacto .contacto__form button {
   margin-top: 1rem;
   padding: 0 0.5rem;
-  background-image: url(/img/fondo-header-3.JPG);
+  background-image: url(../img/fondo-header-3.JPG);
   border: 1px solid rgba(0, 0, 0, 0.4);
 }
 
@@ -699,7 +699,7 @@ header nav ul .sub-menu [items-2]:hover {
   }
 }
 footer {
-  background-image: url(img/fondo-header-3.JPG);
+  background-image: url(../img/fondo-header-3.JPG);
 }
 footer ul {
   margin-top: 2rem;
@@ -718,7 +718,7 @@ footer .footer-copyright {
 
 @media screen and (max-width: 480px) {
   footer {
-    background-image: url(img/fondo-header-3.JPG);
+    background-image: url(../img/fondo-header-3.JPG);
   }
   footer ul {
     margin-top: 1rem;
@@ -730,7 +730,7 @@ footer .footer-copyright {
 }
 @media screen and (max-width: 320px) {
   footer {
-    background-image: url(img/fondo-header-3.JPG);
+    background-image: url(../img/fondo-header-3.JPG);
   }
   footer ul {
     margin: 1rem;
@@ -845,10 +845,10 @@ footer .footer-copyright {
   background-color: #c20707;
 }
 
-* {
+body {
   margin: 0;
   padding: 0;
-  background: chartreuse;
+  background-image: url(../img/fondo-header-3.JPG);
 }
 
 /*# sourceMappingURL=estilos.css.map */

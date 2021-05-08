@@ -1,6 +1,6 @@
 header{
     nav{
-        background-image:url(img/fondo-header-3.JPG);
+        background-image:url(../img/fondo-header-3.JPG);
         box-shadow: 0 0 25px;
         [logo]{
             margin-right:10rem;
@@ -21,7 +21,7 @@ header{
                 font-family: $f-titulo-bitter;
             }
             .sub-menu{
-                background-image: url(img/fondo-header-3.JPG);
+                background-image: url(../img/fondo-header-3.JPG);
                 height:auto;
                 [items-2]{
                     display:inline-block;
@@ -80,7 +80,7 @@ header{
 @media  screen and (max-width:768px) {
     header{
         nav{
-            background-image:url(img/fondo-header-3.JPG);
+            background-image:url(../img/fondo-header-3.JPG);
             box-shadow: 0 0 25px;
             [logo]{
                 margin-right:10rem;
@@ -89,14 +89,14 @@ header{
                 height: auto;
                 li{
                   height: 2.5rem;
-                  background-image:url(img/fondo-header-3.JPG);
+                  background-image:url(../img/fondo-header-3.JPG);
                 [items]{
                     display: inline-block;
                     margin:0 45%;
                     font-size: 1rem;
                 }
                 .sub-menu{
-                    background-image: url(img/fondo-header-3.JPG);
+                    background-image: url(../img/fondo-header-3.JPG);
                     height:9rem;
                     width:auto;
                     margin:0 45%;
@@ -128,7 +128,7 @@ header{
              ul{
                 li{ 
                     height:2.5rem;
-                    background-image:url(img/fondo-header-3.JPG);
+                    background-image:url(../img/fondo-header-3.JPG);
                     [items]{
                         display:inline-block;
                         margin:0 45%;
@@ -157,7 +157,7 @@ header{
              ul{
                 li{ 
                     height:2.5rem;
-                    background-image:url(img/fondo-header-3.JPG);
+                    background-image:url(../img/fondo-header-3.JPG);
                     [items]{
                         display:inline-block;
                         margin:0 45%;
