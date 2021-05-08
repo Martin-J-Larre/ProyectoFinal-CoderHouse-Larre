@@ -18,9 +18,19 @@ $colores-grises:(
         color: $grices;
     }
 }
+@media screen and (max-width:768px){
+    .section__menu {
+        td{
+            font-size:.8rem;
+        }
+    }
+}
 @media screen and (max-width:480px){
     .section__menu {
         margin-top:5rem;
+        td{
+            font-size:.7rem;
+        }
     }
 }
 

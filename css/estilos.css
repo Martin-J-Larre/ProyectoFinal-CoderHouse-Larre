@@ -796,9 +796,17 @@ footer .footer-copyright {
   color: #D0D3D4;
 }
 
+@media screen and (max-width: 768px) {
+  .section__menu td {
+    font-size: 0.8rem;
+  }
+}
 @media screen and (max-width: 480px) {
   .section__menu {
     margin-top: 5rem;
+  }
+  .section__menu td {
+    font-size: 0.7rem;
   }
 }
 .body {
